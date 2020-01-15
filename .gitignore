@@ -1,0 +1,48 @@
+# Potentially needless build filesw
+build/
+py_docs/build
+
+# Needless version files
+.hg/
+.git/
+.svn/
+CVS/
+
+# ctags files
+tags
+
+#Hidden files and folders
+.*
+!.gitignore
+
+#Tmp files
+*.tmp
+*.swp
+*.swo
+*.swn
+*.swm
+*~
+*.pyc
+*#
+*.gch
+
+# Backup files, remove at will
+*.bkp
+*.backup
+
+#Qt files ??
+*.pro
+
+# Compiled Object files
+*.lst
+*.hex
+*.slo
+*.lo
+*.o
+*.sym
+*.lss
+*.eep
+*.elf
+*.hex
+*.map
+*.pyc
